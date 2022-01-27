@@ -1,6 +1,6 @@
-# README
+# README - Learning Journey step 7
 
-## Learning Journey step 7 - Your Tribute Page
+## 7.2 - Your Tribute Page
 
 You will now be using git and vscode to:
 
@@ -15,7 +15,7 @@ You will now be using git and vscode to:
   All of these steps have been covered in step 6 of your *learning journey* if you need any clues as to what to do maybe think about looking back at these resources 🤷
 </details>
 
-## Deploying your site using github Pages
+## 7.3 - Deploying your site using github Pages
 
 Follow the guide [HERE](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 

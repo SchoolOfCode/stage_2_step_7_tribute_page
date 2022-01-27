@@ -2,7 +2,10 @@
 
 ## Learning Journey step 7 - Your Tribute Page
 
-You will now be using git and vscode to _clone_ your repository to your local machine; _update_ the existing files with your own code (from CodePen); _add, commit and push_ your changes to your brand new repository. Pretty cool eh?
+You will now be using git and vscode to:
+_clone_ your repository to your local machine 
+_update_ the sample HTML and CSS files with your own code (from CodePen) 
+_add, commit and push_ your changes to your brand new repository. Pretty cool eh?
 
 <details>
   <summary>Super Secret Hint</summary>

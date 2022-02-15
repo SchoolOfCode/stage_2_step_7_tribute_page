@@ -4,7 +4,7 @@
 
 You will now be using git and vscode to:
 
-  * _clone_ your repository to your local machine 
+  * _clone_ your repository to your local machine (use the HTTPS link)
 
   * _update_ the sample HTML and CSS files with your own code (from CodePen) 
 

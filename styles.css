@@ -1,1 +1,21 @@
-/* Copy and paste your CSS from CodePen into here */
+
+#img-caption
+{
+  width: 150px;
+}
+
+#image
+{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  
+}
+
+#title
+{
+  font-size: 300%;
+
+}

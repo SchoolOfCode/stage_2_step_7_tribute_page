@@ -4,7 +4,8 @@
 Cypress Hill is an American hip hop group from South Gate, California. They are a hip-hop group that has sold multi-platinum and platinum albums, having sold over 20 million albums worldwide. They are considered to be among the main progenitors of West Coast and 1990s hip hop. The group has been critically acclaimed for their first five albums.[2] All of the group members advocate for medical and recreational use of cannabis in the United States.[3] In 2019, Cypress Hill became the first hip hop group to have a star on the Hollywood Walk of Fame.[4]
 
 /////////////////////////////////MEMBERS/////////////////////////////////
-
+ The set up should be a flipping card, the visible side containing a image and name on side.
+ The hidden containg the info about the artist.
 /////IMPORTANT! => ADD IMAGES////////////////
 Louis "B-Real" Freese – vocals (1988–present)
 
@@ -23,4 +24,22 @@ Eric "Bobo" Correa is the son of Latin jazz musician Willie Bobo.[1] He began dr
 
 Correa ended up recording with the Beastie Boys for the albums Ill Communication and Hello Nasty. While on tour with the Beasties, Correa encountered Cypress Hill and joined the group as their percussionist for their world tours,[3] splitting time between both groups.
 //////////////////////////
+
+///////////////////////////////////DISCOGRAPHY//////////////////////////////////
+
+it will be set as a flipping card, the visible side should containg the album cover and the hideen side sould have the tracking list.
+
+Cypress Hill (1991)
+Black Sunday (1993)
+III: Temples of Boom (1995)
+IV (1998)
+Skull & Bones (2000)
+Stoned Raiders (2001)
+Till Death Do Us Part (2004)
+Rise Up (2010)
+Elephants on Acid (2018)
+Back in Black (2022)
+
+
+///////////////////////////////////////////////////////////////////////////////////
 

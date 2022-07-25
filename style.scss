@@ -26,6 +26,9 @@ $-body-font: 'Ultra', serif;
 // Variables
 
 $-margin-top: 1em;
+$-margin-top-button: 3em;
+$-h1-fs: 3.2rem;
+$-h2-fs: 2.8rem;
 
 
 body{
@@ -42,7 +45,7 @@ header{
     margin-top: $-margin-top;
     text-align: center;
     font-family: $-heading-font;
-    font-size: 3.2rem;
+    font-size: $-h1-fs;
   }
 
   #main-logo{
@@ -54,7 +57,67 @@ header{
     border-radius: 50%;
     margin-top: $-margin-top;
   }
+
+// Info Section 
+
 }
+.main-info{
+  width: 80%;
+  margin: auto;
+  margin-top: $-margin-top;
+  padding-top: 1rem;
+  letter-spacing: 2px;
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+// Navigation Buttons
+
+// nav{
+//   display: flex;
+//   width: 40%;
+//   justify-content: space-evenly;
+//   margin: auto;
+//   margin-top: $-margin-top-button;
+
+// }
+
+// Members Container
+
+.members-container{
+  width: 85%;
+  margin-top: $-margin-top;
+
+  .members-section-title{
+    width: 20%;
+    font-size: $-h2-fs;
+    font-family: $-body-font;
+    margin: auto;
+  }
+
+  .member{
+    width: 100%;
+  }
+
+  .member-image{
+    display: block;
+    width: 350px;
+    height: auto;
+  }
+}
+
+
+// Footer
+
+  footer{
+    margin-top: 3em;
+    #sm-footer{
+    width: 50%;
+    margin-top: 8em;
+    }
+  }
+
+
 
 
 //////////////// FLIPPING CARD ALBUM INFORMATION SECTION //////////////

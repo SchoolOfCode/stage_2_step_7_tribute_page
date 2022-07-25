@@ -95,7 +95,7 @@ header{
   .members-section-title{ 
     font-size: $-h2-fs;
     font-family: $-body-font;
-    width: 50vw;
+    width: 69vw;
     margin: auto;
     margin-top: 1em;
     text-align: center;
@@ -129,8 +129,10 @@ header{
 
   .member-image{
     display: block;
-    width: 350px;
-    height: auto;
+    width: 20vw;
+    height: 20vw;
+    min-width: 200px;  
+    min-height: 220px;  
   }
 
   .member-h3{
@@ -163,6 +165,7 @@ header{
   width: 300px;
   height: 300px;
   perspective: 1000px;
+  margin: auto;
   margin-bottom: 4rem;
 
 }
@@ -220,19 +223,18 @@ footer{
 
 // Media queries
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1020px) {
   
   
   .discography{
     grid-template-columns: repeat(2, 1fr);
-    
-    .album-title{
-      text-align: center;
-    }
+  }
+  .album-title{
+    text-align: center;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 712px) {
   
   
   .discography{

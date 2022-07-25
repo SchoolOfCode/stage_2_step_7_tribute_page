@@ -1,14 +1,59 @@
+
+// Box Rules
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+// Remove Default Margin
+*{
+  margin: 0;
+  padding: 0;
+}
+
+// Remove list styles on ul
+
+ul[role="list"]{
+  list-style: none;
+}
+
+// Font Family
+
+$-heading-font: 'Gentium Book Basic', serif;
+$-body-font: 'Ultra', serif;
+
+// Variables
+
+$-margin-top: 1em;
+
+
 body{
   background-color: antiquewhite;
 }
 
-#main-logo{
-  max-width: 75%;
-  min-width: 350px;
-  height: auto;
-  margin: auto;
-  display: block;
-  border-radius: 50%;
+// Header Set-Up
+
+header{
+
+  .h1-header{
+    width: 50vw;
+    margin: auto;
+    margin-top: $-margin-top;
+    text-align: center;
+    font-family: $-heading-font;
+    font-size: 3.2rem;
+  }
+
+  #main-logo{
+    max-width: 75%;
+    min-width: 350px;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    margin-top: $-margin-top;
+  }
 }
 
 

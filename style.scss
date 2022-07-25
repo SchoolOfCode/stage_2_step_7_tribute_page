@@ -29,6 +29,8 @@ $-margin-top: 1em;
 $-margin-top-button: 3em;
 $-h1-fs: 3.2rem;
 $-h2-fs: 2.8rem;
+$-h3-fs: 1.6rem;
+$-p-fs: 1rem;
 
 
 body{
@@ -69,6 +71,8 @@ header{
   letter-spacing: 2px;
   line-height: 1.5rem;
   text-align: left;
+  font-family: $-heading-font;
+
 }
 
 // Navigation Buttons
@@ -87,22 +91,61 @@ header{
 .members-container{
   width: 85%;
   margin-top: $-margin-top;
+  margin: auto;
 
-  .members-section-title{
-    width: 20%;
+  .member-h2{
+    width: 100%;
+    margin: auto;
+  }
+
+  .members-section-title{ 
     font-size: $-h2-fs;
     font-family: $-body-font;
+    width: 50vw;
     margin: auto;
+    margin-top: 1em;
+    text-align: center;
   }
 
   .member{
     width: 100%;
+    margin: auto;
+  }
+
+  .member-info{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    margin-top: $-margin-top;
+  }
+
+  .member-info-text-area{
+    padding: 1rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 1em;
+    padding-top: 1rem;
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font-family: $-heading-font;
   }
 
   .member-image{
     display: block;
     width: 350px;
     height: auto;
+  }
+
+  .member-h3{
+    font-size: $-h3-fs;
+    font-family: $-body-font;
+    width: 50vw;
+    margin: auto;
+    margin-top: 1em;
+    text-align: center;
   }
 }
 
@@ -111,7 +154,9 @@ header{
 
   footer{
     margin-top: 3em;
-    #sm-footer{
+
+
+    #sm-footer-logo{
     width: 50%;
     margin-top: 8em;
     }

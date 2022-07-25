@@ -12,12 +12,6 @@
   padding: 0;
 }
 
-// Remove list styles on ul
-
-ul[role="list"]{
-  list-style: none;
-}
-
 // Font Family
 
 $-heading-font: 'Gentium Book Basic', serif;
@@ -144,34 +138,33 @@ header{
     font-family: $-body-font;
     width: 50vw;
     margin: auto;
-    margin-top: 1em;
+    margin-top: $-margin-top;
     text-align: center;
   }
 }
 
+// Discography Section
 
-// Footer
+.discography{
+  width: 90%;
+  margin: auto;
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 
-  footer{
-    margin-top: 3em;
-
-
-    #sm-footer-logo{
-    width: 50%;
-    margin-top: 8em;
+    .album-title{
+      margin-bottom: 1rem;
     }
-  }
+}
 
-
-
-
-//////////////// FLIPPING CARD ALBUM INFORMATION SECTION //////////////
 
 .flip-card {
   background-color: transparent;
   width: 300px;
   height: 300px;
   perspective: 1000px;
+  margin-bottom: 4rem;
+
 }
 
 .flip-card-inner {
@@ -205,4 +198,52 @@ header{
   background-color: #2980b9;
   color: white;
   transform: rotateY(180deg);
+
+  ul{
+    list-style-type: none;
+  }
+}
+
+
+
+// Footer
+
+footer{
+  margin-top: 3em;
+
+
+  #sm-footer-logo{
+  width: 50%;
+  margin-top: 8em;
+  }
+}
+
+// Media queries
+
+@media screen and (max-width: 768px) {
+  
+  
+  .discography{
+    grid-template-columns: repeat(2, 1fr);
+    
+    .album-title{
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  
+  
+  .discography{
+    grid-template-columns: repeat(1, 1fr);
+
+    .album-title{
+      text-align: center;
+    }
+    .flip-card{
+      margin: auto;
+      margin-bottom: 3.5rem;
+    }
+  }
 }

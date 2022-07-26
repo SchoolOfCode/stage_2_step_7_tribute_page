@@ -28,12 +28,17 @@ $-p-fs: 1rem;
 
 
 body{
-  background-color: antiquewhite;
+  background-color: #69FFD7;
 }
 
 // Header Set-Up
 
 header{
+
+  .first-letter-header{
+    font-size: 4.5rem;
+    color: #F50000;
+  }
 
   .h1-header{
     width: 50vw;
@@ -66,9 +71,12 @@ header{
   line-height: 1.5rem;
   text-align: left;
   font-family: $-heading-font;
-
 }
 
+.first-letter{
+  font-size: 1.5rem;
+    color: #F50000;
+}
 // Navigation Buttons
 
 // nav{
@@ -99,11 +107,16 @@ header{
     margin: auto;
     margin-top: 1em;
     text-align: center;
+    color: #F50000;
   }
 
   .member{
     width: 100%;
     margin: auto;
+
+    .member-name{
+      color: #F50000;
+    }
   }
 
   .member-info{

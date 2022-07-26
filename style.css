@@ -10,9 +10,13 @@
 }
 
 body {
-  background-color: antiquewhite;
+  background-color: #69FFD7;
 }
 
+header .first-letter-header {
+  font-size: 4.5rem;
+  color: #F50000;
+}
 header .h1-header {
   width: 50vw;
   margin: auto;
@@ -42,6 +46,11 @@ header #main-logo {
   font-family: "Gentium Book Basic", serif;
 }
 
+.first-letter {
+  font-size: 1.5rem;
+  color: #F50000;
+}
+
 .members-container {
   width: 85%;
   margin-top: 1em;
@@ -58,10 +67,14 @@ header #main-logo {
   margin: auto;
   margin-top: 1em;
   text-align: center;
+  color: #F50000;
 }
 .members-container .member {
   width: 100%;
   margin: auto;
+}
+.members-container .member .member-name {
+  color: #F50000;
 }
 .members-container .member-info {
   display: flex;

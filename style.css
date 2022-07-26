@@ -171,6 +171,9 @@ footer #sm-footer-logo {
   }
 }
 @media screen and (max-width: 712px) {
+  .main-info {
+    font-size: 0.9rem;
+  }
   .discography {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -180,5 +183,29 @@ footer #sm-footer-logo {
   .discography .flip-card {
     margin: auto;
     margin-bottom: 3.5rem;
+  }
+  .members-container .members-section-title {
+    font-size: 2rem;
+  }
+  .members-container .member-h3 {
+    font-size: 1.3rem;
+  }
+  .members-container .member-info-text-area {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .main-info {
+    font-size: 0.8rem;
+  }
+  .members-container .members-section-title {
+    font-size: 1.6rem;
+  }
+  .members-container .member-h3 {
+    font-size: 1rem;
+    width: 80vw;
+  }
+  .members-container .member-info-text-area {
+    font-size: 0.8rem;
   }
 }/*# sourceMappingURL=style.css.map */

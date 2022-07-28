@@ -232,13 +232,24 @@ header{
 
 footer{
   margin-top: 3em;
-
-
-  #sm-footer-logo{
-  width: 30%;
-  margin: auto;
-  margin-top: 8em;
+  margin-bottom: 6vw;
+  .footer-p{
+    font-family: $-body-font;
+    font-size: 1.1rem;
+    margin-left: 5vw;
+    margin-top: 2vw;
   }
+  a{
+    color: #F50000;
+    text-decoration: none;
+  }
+
+    #sm-footer-logo{
+    width: 50%;
+    margin: auto;
+    margin-top: 8em;
+    margin-left: 5vw;
+    }
 }
 
 // Media queries
@@ -300,7 +311,10 @@ footer{
       }
       .member-image{
         margin: auto;
+    }
   }
+  .discography-title{
+    width: 85vw;
   }
 }
 
@@ -327,9 +341,10 @@ footer{
   }
 
   footer{
-  #sm-footer-logo{
-    width: 40%;
-    margin-top: 0;
+    #sm-footer-logo{
+      width: 40%;
+      margin-top: 0;   
+    }
   }
-  }
+  
 }

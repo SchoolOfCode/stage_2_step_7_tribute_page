@@ -167,11 +167,23 @@ header #main-logo {
 
 footer {
   margin-top: 3em;
+  margin-bottom: 6vw;
+}
+footer .footer-p {
+  font-family: "Ultra", serif;
+  font-size: 1.1rem;
+  margin-left: 5vw;
+  margin-top: 2vw;
+}
+footer a {
+  color: #F50000;
+  text-decoration: none;
 }
 footer #sm-footer-logo {
-  width: 30%;
+  width: 50%;
   margin: auto;
   margin-top: 8em;
+  margin-left: 5vw;
 }
 
 @media screen and (max-width: 1020px) {
@@ -216,6 +228,9 @@ footer #sm-footer-logo {
   }
   .members-container .member-image {
     margin: auto;
+  }
+  .discography-title {
+    width: 85vw;
   }
 }
 @media screen and (max-width: 375px) {

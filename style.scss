@@ -27,8 +27,19 @@ $-h3-fs: 1.6rem;
 $-p-fs: 1rem;
 
 
+// Utility Class
+.section-title{ 
+  font-size: $-h2-fs;
+  font-family: $-body-font;
+  width: 69vw;
+  margin: auto;
+  margin-top: 1em;
+  text-align: center;
+  color: #F50000;
+}
+
 body{
-  background-color: #69FFD7;
+  background-color: #ffff;
 }
 
 // Header Set-Up
@@ -100,15 +111,15 @@ header{
     margin: auto;
   }
 
-  .members-section-title{ 
-    font-size: $-h2-fs;
-    font-family: $-body-font;
-    width: 69vw;
-    margin: auto;
-    margin-top: 1em;
-    text-align: center;
-    color: #F50000;
-  }
+  // .members-section-title{ 
+  //   font-size: $-h2-fs;
+  //   font-family: $-body-font;
+  //   width: 69vw;
+  //   margin: auto;
+  //   margin-top: 1em;
+  //   text-align: center;
+  //   color: #F50000;
+  // }
 
   .member{
     width: 100%;
@@ -166,10 +177,6 @@ header{
   margin-top: 3rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-
-    .album-title{
-      margin-bottom: 1rem;
-    }
 }
 
 
@@ -180,7 +187,6 @@ header{
   perspective: 1000px;
   margin: auto;
   margin-bottom: 4rem;
-
 }
 
 .flip-card-inner {
@@ -211,7 +217,7 @@ header{
 }
 
 .flip-card-back {
-  background-color: #2980b9;
+  background-color: #F50000;
   color: white;
   transform: rotateY(180deg);
 
@@ -229,7 +235,8 @@ footer{
 
 
   #sm-footer-logo{
-  width: 50%;
+  width: 30%;
+  margin: auto;
   margin-top: 8em;
   }
 }

@@ -9,8 +9,18 @@
   padding: 0;
 }
 
+.section-title {
+  font-size: 2.8rem;
+  font-family: "Ultra", serif;
+  width: 69vw;
+  margin: auto;
+  margin-top: 1em;
+  text-align: center;
+  color: #F50000;
+}
+
 body {
-  background-color: #69FFD7;
+  background-color: white;
 }
 
 header .first-letter-header {
@@ -59,15 +69,6 @@ header #main-logo {
 .members-container .member-h2 {
   width: 100%;
   margin: auto;
-}
-.members-container .members-section-title {
-  font-size: 2.8rem;
-  font-family: "Ultra", serif;
-  width: 69vw;
-  margin: auto;
-  margin-top: 1em;
-  text-align: center;
-  color: #F50000;
 }
 .members-container .member {
   width: 100%;
@@ -118,9 +119,6 @@ header #main-logo {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-.discography .album-title {
-  margin-bottom: 1rem;
-}
 
 .flip-card {
   background-color: transparent;
@@ -159,7 +157,7 @@ header #main-logo {
 }
 
 .flip-card-back {
-  background-color: #2980b9;
+  background-color: #F50000;
   color: white;
   transform: rotateY(180deg);
 }
@@ -171,7 +169,8 @@ footer {
   margin-top: 3em;
 }
 footer #sm-footer-logo {
-  width: 50%;
+  width: 30%;
+  margin: auto;
   margin-top: 8em;
 }
 

@@ -206,6 +206,18 @@ footer #sm-footer-logo {
     font-size: 0.9rem;
   }
 }
+@media screen and (max-width: 425px) {
+  .members-container {
+    width: 100%;
+  }
+  .members-container .member-info {
+    flex-direction: column;
+    width: 100%;
+  }
+  .members-container .member-image {
+    margin: auto;
+  }
+}
 @media screen and (max-width: 375px) {
   .main-info {
     font-size: 0.8rem;
@@ -219,5 +231,12 @@ footer #sm-footer-logo {
   }
   .members-container .member-info-text-area {
     font-size: 0.8rem;
+  }
+  .discography-title {
+    width: 94vw;
+  }
+  footer #sm-footer-logo {
+    width: 40%;
+    margin-top: 0;
   }
 }/*# sourceMappingURL=style.css.map */

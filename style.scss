@@ -288,13 +288,28 @@ footer{
   }
 }
 
+//  Max width 425px
+@media screen and (max-width:425px){
+
+  .members-container{
+    width: 100%;
+      .member-info{
+        flex-direction: column;
+        width: 100%;
+
+      }
+      .member-image{
+        margin: auto;
+  }
+  }
+}
+
 //  Max width 375px
 @media screen and (max-width: 375px){
 
   .main-info{
     font-size: .8rem;
-  }
-  
+  } 
   .members-container{
     .members-section-title{
       font-size: 1.6rem;
@@ -306,5 +321,15 @@ footer{
     .member-info-text-area{
       font-size: .8rem;
     }
+  }
+  .discography-title{
+    width: 94vw;
+  }
+
+  footer{
+  #sm-footer-logo{
+    width: 40%;
+    margin-top: 0;
+  }
   }
 }

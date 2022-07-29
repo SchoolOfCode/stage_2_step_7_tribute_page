@@ -187,7 +187,7 @@ footer {
 footer .footer-p {
   font-family: "Ultra", serif;
   font-size: 1.1rem;
-  margin-left: 5vw;
+  margin-left: 25vw;
   margin-top: 2vw;
 }
 footer a {
@@ -209,7 +209,7 @@ footer figcaption {
 footer #css-validator {
   width: 78px;
   height: 29px;
-  margin-left: 5vw;
+  margin-left: 25vw;
   margin-top: 6vw;
 }
 

@@ -70,6 +70,15 @@ header #image {
   width: 100%;
   margin: auto;
 }
+.members-container .members-section-title {
+  font-size: 2.8rem;
+  font-family: "Ultra", serif;
+  width: 69vw;
+  margin: auto;
+  margin-top: 1em;
+  text-align: center;
+  color: #F50000;
+}
 .members-container .member {
   width: 100%;
   margin: auto;
@@ -118,6 +127,12 @@ header #image {
   margin-top: 3rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+.discography .album-cover {
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .flip-card {
@@ -183,8 +198,6 @@ footer .small-logo {
   width: 50%;
   max-width: 100%;
   margin: auto;
-  margin-top: 8em;
-  margin-left: 5vw;
   display: block;
 }
 
@@ -252,8 +265,7 @@ footer .small-logo {
   .discography-title {
     width: 94vw;
   }
-  footer #image {
+  footer .small-logo {
     width: 40%;
-    margin-top: 0;
   }
 }/*# sourceMappingURL=style.css.map */

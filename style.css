@@ -200,6 +200,18 @@ footer .small-logo {
   margin: auto;
   display: block;
 }
+footer figcaption {
+  font-size: 0.7rem;
+  width: 25%;
+  margin-left: 25vw;
+  font-size: 1rem;
+}
+footer #css-validator {
+  width: 78px;
+  height: 29px;
+  margin-left: 5vw;
+  margin-top: 6vw;
+}
 
 @media screen and (max-width: 1020px) {
   .discography {
@@ -247,6 +259,21 @@ footer .small-logo {
   .discography-title {
     width: 85vw;
   }
+  footer .footer-p {
+    font-size: 0.7rem;
+    margin-left: 6vw;
+    margin-top: 2.3vw;
+  }
+  footer figcaption {
+    font-size: 0.6rem;
+  }
+  footer #css-validator {
+    width: 54px;
+    height: 20px;
+    display: block;
+    margin-left: 6vw;
+    margin-top: 2.3vw;
+  }
 }
 @media screen and (max-width: 375px) {
   .main-info {
@@ -267,5 +294,12 @@ footer .small-logo {
   }
   footer .small-logo {
     width: 40%;
+  }
+  footer figcaption {
+    font-size: 0.8rem;
+    margin-left: 30vw;
+  }
+  footer .footer-p {
+    font-size: 0.8rem;
   }
 }/*# sourceMappingURL=style.css.map */

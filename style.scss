@@ -250,6 +250,18 @@
       // margin-left: 5vw;
       display: block;
       }
+      figcaption{
+        font-size: 0.7rem;
+        width: 25%;
+        margin-left: 25vw;
+        font-size: 1rem;
+      }
+      #css-validator{
+        width: 78px;
+        height: 29px;
+        margin-left: 5vw;
+        margin-top: 6vw;
+      }
   }
 
   // Media queries
@@ -316,6 +328,25 @@
     .discography-title{
       width: 85vw;
     }
+
+    footer{
+      .footer-p{
+        font-size: .7rem;
+      margin-left: 6vw;
+      margin-top: 2.3vw;
+      }
+      figcaption{
+        font-size: .6rem;
+      }
+      #css-validator{
+        width: 54px;
+        height: 20px;
+        display: block;
+        margin-left: 6vw;
+        margin-top: 2.3vw;
+      }
+      
+    }
   }
 
   //  Max width 375px
@@ -345,7 +376,13 @@
       .small-logo{
         width: 40%;
         
-      }  
+      } 
+      figcaption{
+        font-size: 0.8rem;
+        margin-left: 30vw;
+      } 
+      .footer-p{
+        font-size: 0.8rem;
+      }
     }
-    
-  }
+}

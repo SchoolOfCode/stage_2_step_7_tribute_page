@@ -179,8 +179,9 @@ footer a {
   color: #F50000;
   text-decoration: none;
 }
-footer #sm-footer-logo {
+footer #image {
   width: 50%;
+  max-width: 100%;
   margin: auto;
   margin-top: 8em;
   margin-left: 5vw;
@@ -250,7 +251,7 @@ footer #sm-footer-logo {
   .discography-title {
     width: 94vw;
   }
-  footer #sm-footer-logo {
+  footer #image {
     width: 40%;
     margin-top: 0;
   }

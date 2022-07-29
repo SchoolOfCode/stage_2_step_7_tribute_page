@@ -60,14 +60,14 @@
       font-size: $-h1-fs;
     }
 
-    #main-logo{
-      max-width: 75%;
+    #image{
+      max-width: 100%;
       min-width: 350px;
+      padding: 1em;
       height: auto;
       margin: auto;
       display: block;
       border-radius: 50%;
-      margin-top: $-margin-top;
     }
 
   // Info Section 
@@ -244,12 +244,13 @@
       text-decoration: none;
     }
 
-      #image{
+      .small-logo{
       width: 50%;
       max-width: 100%;
       margin: auto;
       margin-top: 8em;
       margin-left: 5vw;
+      display: block;
       }
   }
 

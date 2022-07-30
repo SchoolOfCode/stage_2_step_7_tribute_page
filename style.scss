@@ -1,388 +1,305 @@
-
-  // Box Rules
-  *,
-  *::before,
-  *::after{
-    box-sizing: border-box;
-  }
-
-  // Remove Default Margin
-  *{
-    margin: 0;
-    padding: 0;
-  }
-
-  // Font Family
-
-  $-heading-font: 'Gentium Book Basic', serif;
-  $-body-font: 'Ultra', serif;
-
-  // Variables
-
-  $-margin-top: 1em;
-  $-margin-top-button: 3em;
-  $-h1-fs: 3.2rem;
-  $-h2-fs: 2.8rem;
-  $-h3-fs: 1.6rem;
-  $-p-fs: 1rem;
-
-
-  // Utility Class
-  .section-title{ 
-    font-size: $-h2-fs;
-    font-family: $-body-font;
-    width: 69vw;
-    margin: auto;
-    margin-top: 1em;
-    text-align: center;
-    color: #F50000;
-  }
-
-  body{
-    background-color: #ffff;
-  }
-
-  // Header Set-Up
-
-  header{
-
-    .first-letter-header{
-      font-size: 4.5rem;
-      color: #F50000;
-    }
-
-    .h1-header{
-      width: 50vw;
-      margin: auto;
-      margin-top: $-margin-top;
-      text-align: center;
-      font-family: $-heading-font;
-      font-size: $-h1-fs;
-    }
-
-    #image{
-      max-width: 100%;
-      min-width: 350px;
-      padding: 1em;
-      height: auto;
-      margin: auto;
-      display: block;
-      border-radius: 50%;
-    }
-
-  // Info Section 
-
-  }
-  .main-info{
-    width: 80%;
-    margin: auto;
-    margin-top: $-margin-top;
-    padding-top: 1rem;
-    letter-spacing: 2px;
-    line-height: 1.5rem;
-    text-align: left;
-    font-family: $-heading-font;
-  }
-
-  .first-letter{
-    font-size: 1.5rem;
-      color: #F50000;
-  }
-  
-
-  // Members Container
-
-  .members-container{
-    width: 85%;
-    margin-top: $-margin-top;
-    margin: auto;
-
-    .member-h2{
-      width: 100%;
-      margin: auto;
-    }
-
-    .members-section-title{ 
-      font-size: $-h2-fs;
-      font-family: $-body-font;
-      width: 69vw;
-      margin: auto;
-      margin-top: 1em;
-      text-align: center;
-      color: #F50000;
-    }
-
-    .member{
-      width: 100%;
-      margin: auto;
-
-      .member-name{
-        color: #F50000;
-      }
-    }
-
-    .member-info{
-      display: flex;
-      margin: auto;
-      width: 90%;
-      margin-top: $-margin-top;
-    }
-
-    .member-info-text-area{
-      padding: 1rem;
-      width: 80%;
-      margin: auto;
-      margin-top: 1em;
-      padding-top: 1rem;
-      letter-spacing: 2px;
-      line-height: 1.5rem;
-      text-align: left;
-      display: flex;
-      flex-direction: column;
-      font-family: $-heading-font;
-    }
-
-    .member-image{
-      display: block;
-      width: 20vw;
-      height: 20vw;
-      min-width: 200px;  
-      min-height: 220px;  
-    }
-
-    .member-h3{
-      font-size: $-h3-fs;
-      font-family: $-body-font;
-      width: 50vw;
-      margin: auto;
-      margin-top: $-margin-top;
-      text-align: center;
-    }
-  }
-
-  // Discography Section
-
-  .discography{
-    width: 90%;
-    margin: auto;
-    margin-top: 3rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
-    .album-cover{
-      margin: auto;
-      max-width: 100%;
-      height: auto;
-      display: block;
-    }
-  }
-
-
-  .flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 300px;
-    perspective: 1000px;
-    margin: auto;
-    margin-bottom: 4rem;
-  }
-
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  }
-
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
-  }
-
-  .flip-card-back {
-    background-color: #F50000;
-    color: white;
-    transform: rotateY(180deg);
-
-    ul{
-      list-style-type: none;
-    }
-  }
-
-
-
-  // Footer
-
-  footer{
-    margin-top: 3em;
-    margin-bottom: 6vw;
-    .footer-p{
-      font-family: $-body-font;
-      font-size: 1.1rem;
-      margin-left: 25vw;
-      margin-top: 2vw;
-    }
-    a{
-      color: #F50000;
-      text-decoration: none;
-    }
-
-      .small-logo{
-      width: 50%;
-      max-width: 100%;
-      margin: auto;
-      // margin-top: 8em;
-      // margin-left: 5vw;
-      display: block;
-      }
-      figcaption{
-        font-size: 0.7rem;
-        width: 25%;
-        margin-left: 25vw;
-        font-size: 1rem;
-      }
-      #css-validator{
-        width: 78px;
-        height: 29px;
-        margin-left: 25vw;
-        margin-top: 6vw;
-      }
-  }
-
-  // Media queries
-
-  //  Max width 1020px
-  @media screen and (max-width: 1020px) {
-    
-    
-    .discography{
-      grid-template-columns: repeat(2, 1fr);
-    }
-    .album-title{
-      text-align: center;
-    }
-  }
-
-  //  Max width 712px
-  @media screen and (max-width: 712px) {
-    
-    .main-info{
-      font-size: .9rem;
-    }
-
-    .discography{
-      grid-template-columns: repeat(1, 1fr);
-
-      .album-title{
-        text-align: center;
-      }
-      .flip-card{
-        margin: auto;
-        margin-bottom: 3.5rem;
-      }
-    }
-
-    .members-container{
-
-      .members-section-title{
-        font-size: 2rem;
-      }
-      .member-h3{
-        font-size: 1.3rem;
-      }
-      .member-info-text-area{
-        font-size: .9rem;
-      }
-    }
-  }
-
-  //  Max width 425px
-  @media screen and (max-width:425px){
-
-    .members-container{
-      width: 100%;
-        .member-info{
-          flex-direction: column;
-          width: 100%;
-
-        }
-        .member-image{
-          margin: auto;
-      }
-    }
-    .discography-title{
-      width: 85vw;
-    }
-
-    footer{
-      .footer-p{
-        font-size: .7rem;
-      margin-left: 6vw;
-      margin-top: 2.3vw;
-      }
-      figcaption{
-        font-size: .6rem;
-      }
-      #css-validator{
-        width: 54px;
-        height: 20px;
-        display: block;
-        margin-left: 6vw;
-        margin-top: 2.3vw;
-      }
-      
-    }
-  }
-
-  //  Max width 375px
-  @media screen and (max-width: 375px){
-
-    .main-info{
-      font-size: .8rem;
-    } 
-    .members-container{
-      .members-section-title{
-        font-size: 1.6rem;
-      }
-      .member-h3{
-        font-size: 1rem;
-        width: 80vw;
-      }
-      .member-info-text-area{
-        font-size: .8rem;
-      }
-    }
-    .discography-title{
-      width: 94vw;
-    }
-
-    footer{
-
-      .small-logo{
-        width: 40%;
-        
-      } 
-      figcaption{
-        font-size: 0.8rem;
-        margin-left: 30vw;
-      } 
-      .footer-p{
-        font-size: 0.8rem;
-      }
-    }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  font-family: "Ultra", serif;
+  width: 69vw;
+  margin: auto;
+  margin-top: 1em;
+  text-align: center;
+  color: #F50000;
+}
+
+body {
+  background-color: white;
+}
+
+header .first-letter-header {
+  font-size: 4.5rem;
+  color: #F50000;
+}
+header .h1-header {
+  width: 50vw;
+  margin: auto;
+  margin-top: 1em;
+  text-align: center;
+  font-family: "Gentium Book Basic", serif;
+  font-size: 3.2rem;
+}
+header #image {
+  max-width: 100%;
+  min-width: 350px;
+  padding: 1em;
+  height: auto;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+}
+
+.main-info {
+  width: 80%;
+  margin: auto;
+  margin-top: 1em;
+  padding-top: 1rem;
+  letter-spacing: 2px;
+  line-height: 1.5rem;
+  text-align: left;
+  font-family: "Gentium Book Basic", serif;
+}
+
+.first-letter {
+  font-size: 1.5rem;
+  color: #F50000;
+}
+
+.members-container {
+  width: 85%;
+  margin-top: 1em;
+  margin: auto;
+}
+.members-container .member-h2 {
+  width: 100%;
+  margin: auto;
+}
+.members-container .members-section-title {
+  font-size: 2.8rem;
+  font-family: "Ultra", serif;
+  width: 69vw;
+  margin: auto;
+  margin-top: 1em;
+  text-align: center;
+  color: #F50000;
+}
+.members-container .member {
+  width: 100%;
+  margin: auto;
+}
+.members-container .member .member-name {
+  color: #F50000;
+}
+.members-container .member-info {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  margin-top: 1em;
+}
+.members-container .member-info-text-area {
+  padding: 1rem;
+  width: 80%;
+  margin: auto;
+  margin-top: 1em;
+  padding-top: 1rem;
+  letter-spacing: 2px;
+  line-height: 1.5rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  font-family: "Gentium Book Basic", serif;
+}
+.members-container .member-image {
+  display: block;
+  width: 20vw;
+  height: 20vw;
+  min-width: 200px;
+  min-height: 220px;
+}
+.members-container .member-h3 {
+  font-size: 1.6rem;
+  font-family: "Ultra", serif;
+  width: 50vw;
+  margin: auto;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.discography {
+  width: 90%;
+  margin: auto;
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.discography .album-cover {
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #F50000;
+  color: white;
+  transform: rotateY(180deg);
+}
+.flip-card-back ul {
+  list-style-type: none;
+}
+
+footer {
+  margin-top: 3em;
+  margin-bottom: 6vw;
+}
+footer .footer-p {
+  font-family: "Ultra", serif;
+  font-size: 1.1rem;
+  margin-left: 25vw;
+  margin-top: 2vw;
+}
+footer a {
+  color: #F50000;
+  text-decoration: none;
+}
+footer .small-logo {
+  width: 50%;
+  max-width: 100%;
+  margin: auto;
+  display: block;
+}
+footer figcaption {
+  font-size: 0.7rem;
+  width: 25%;
+  margin-left: 25vw;
+  font-size: 1rem;
+}
+footer #css-validator {
+  width: 78px;
+  height: 29px;
+  margin-left: 25vw;
+  margin-top: 6vw;
+}
+
+@media screen and (max-width: 1020px) {
+  .discography {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .album-title {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 712px) {
+  .main-info {
+    font-size: 0.9rem;
+  }
+  .discography {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .discography .album-title {
+    text-align: center;
+  }
+  .discography .flip-card {
+    margin: auto;
+    margin-bottom: 3.5rem;
+  }
+  .members-container .members-section-title {
+    font-size: 2rem;
+  }
+  .members-container .member-h3 {
+    font-size: 1.3rem;
+  }
+  .members-container .member-info-text-area {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .members-container {
+    width: 100%;
+  }
+  .members-container .member-info {
+    flex-direction: column;
+    width: 100%;
+  }
+  .members-container .member-image {
+    margin: auto;
+  }
+  .discography-title {
+    width: 85vw;
+  }
+  footer .footer-p {
+    font-size: 0.7rem;
+    margin-left: 6vw;
+    margin-top: 2.3vw;
+  }
+  footer figcaption {
+    font-size: 0.6rem;
+  }
+  footer #css-validator {
+    width: 54px;
+    height: 20px;
+    display: block;
+    margin-left: 6vw;
+    margin-top: 2.3vw;
+  }
+}
+@media screen and (max-width: 375px) {
+  .main-info {
+    font-size: 0.8rem;
+  }
+  .members-container .members-section-title {
+    font-size: 1.6rem;
+  }
+  .members-container .member-h3 {
+    font-size: 1rem;
+    width: 80vw;
+  }
+  .members-container .member-info-text-area {
+    font-size: 0.8rem;
+  }
+  .discography-title {
+    width: 94vw;
+  }
+  footer .small-logo {
+    width: 40%;
+  }
+  footer figcaption {
+    font-size: 0.8rem;
+    margin-left: 30vw;
+  }
+  footer .footer-p {
+    font-size: 0.8rem;
+  }
+}/*# sourceMappingURL=style.css.map */

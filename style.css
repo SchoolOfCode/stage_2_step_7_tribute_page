@@ -27,6 +27,7 @@ header .first-letter-header {
   font-size: 4.5rem;
   color: #F50000;
 }
+
 header .h1-header {
   width: 50vw;
   margin: auto;
@@ -35,6 +36,7 @@ header .h1-header {
   font-family: "Gentium Book Basic", serif;
   font-size: 3.2rem;
 }
+
 header #image {
   max-width: 100%;
   min-width: 350px;
@@ -66,10 +68,12 @@ header #image {
   margin-top: 1em;
   margin: auto;
 }
+
 .members-container .member-h2 {
   width: 100%;
   margin: auto;
 }
+
 .members-container .members-section-title {
   font-size: 2.8rem;
   font-family: "Ultra", serif;
@@ -79,19 +83,23 @@ header #image {
   text-align: center;
   color: #F50000;
 }
+
 .members-container .member {
   width: 100%;
   margin: auto;
 }
+
 .members-container .member .member-name {
   color: #F50000;
 }
+
 .members-container .member-info {
   display: flex;
   margin: auto;
   width: 90%;
   margin-top: 1em;
 }
+
 .members-container .member-info-text-area {
   padding: 1rem;
   width: 80%;
@@ -105,6 +113,7 @@ header #image {
   flex-direction: column;
   font-family: "Gentium Book Basic", serif;
 }
+
 .members-container .member-image {
   display: block;
   width: 20vw;
@@ -112,6 +121,7 @@ header #image {
   min-width: 200px;
   min-height: 220px;
 }
+
 .members-container .member-h3 {
   font-size: 1.6rem;
   font-family: "Ultra", serif;
@@ -128,6 +138,7 @@ header #image {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
 .discography .album-cover {
   margin: auto;
   max-width: 100%;
@@ -176,6 +187,7 @@ header #image {
   color: white;
   transform: rotateY(180deg);
 }
+
 .flip-card-back ul {
   list-style-type: none;
 }
@@ -184,28 +196,33 @@ footer {
   margin-top: 3em;
   margin-bottom: 6vw;
 }
+
 footer .footer-p {
   font-family: "Ultra", serif;
   font-size: 1.1rem;
   margin-left: 25vw;
   margin-top: 2vw;
 }
+
 footer a {
   color: #F50000;
   text-decoration: none;
 }
+
 footer .small-logo {
   width: 50%;
   max-width: 100%;
   margin: auto;
   display: block;
 }
+
 footer figcaption {
   font-size: 0.7rem;
   width: 25%;
   margin-left: 25vw;
   font-size: 1rem;
 }
+
 footer #css-validator {
   width: 78px;
   height: 29px;
@@ -302,4 +319,4 @@ footer #css-validator {
   footer .footer-p {
     font-size: 0.8rem;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */

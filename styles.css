@@ -1,1 +1,39 @@
 /* Copy and paste your CSS from CodePen into here */
+:root {
+    --padding-size: 10px;
+   
+  }
+.title{
+    width : fit-content;
+    margin-left : auto;
+    margin-right : auto;
+}
+#img-div{
+    background-color:whitesmoke;
+    width: 85%;
+    max-width: max-content;
+    padding:var(--padding-size);
+}
+#image{
+    max-width:100%;
+    height:auto;
+    width:90%
+
+}
+.image-only{
+    display:flex;
+    justify-content: center;
+}
+li {
+    margin : 10px;
+}
+#summary{ 
+    background-color: cornsilk;
+    padding: var(--padding-size);
+    color: maroon;
+}
+#tribute-link-paragraph{
+    width : fit-content;
+    margin-left : auto;
+    margin-right : auto;
+}/* Copy and paste your CSS from CodePen into here */

@@ -1,0 +1,290 @@
+
+// Box Rules
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+// Remove Default Margin
+*{
+  margin: 0;
+  padding: 0;
+}
+
+// Font Family
+
+$-heading-font: 'Gentium Book Basic', serif;
+$-body-font: 'Ultra', serif;
+
+// Variables
+
+$-margin-top: 1em;
+$-margin-top-button: 3em;
+$-h1-fs: 3.2rem;
+$-h2-fs: 2.8rem;
+$-h3-fs: 1.6rem;
+$-p-fs: 1rem;
+
+
+body{
+  background-color: antiquewhite;
+}
+
+// Header Set-Up
+
+header{
+
+  .h1-header{
+    width: 50vw;
+    margin: auto;
+    margin-top: $-margin-top;
+    text-align: center;
+    font-family: $-heading-font;
+    font-size: $-h1-fs;
+  }
+
+  #main-logo{
+    max-width: 75%;
+    min-width: 350px;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    margin-top: $-margin-top;
+  }
+
+// Info Section 
+
+}
+.main-info{
+  width: 80%;
+  margin: auto;
+  margin-top: $-margin-top;
+  padding-top: 1rem;
+  letter-spacing: 2px;
+  line-height: 1.5rem;
+  text-align: left;
+  font-family: $-heading-font;
+
+}
+
+// Navigation Buttons
+
+// nav{
+//   display: flex;
+//   width: 40%;
+//   justify-content: space-evenly;
+//   margin: auto;
+//   margin-top: $-margin-top-button;
+
+// }
+
+// Members Container
+
+.members-container{
+  width: 85%;
+  margin-top: $-margin-top;
+  margin: auto;
+
+  .member-h2{
+    width: 100%;
+    margin: auto;
+  }
+
+  .members-section-title{ 
+    font-size: $-h2-fs;
+    font-family: $-body-font;
+    width: 69vw;
+    margin: auto;
+    margin-top: 1em;
+    text-align: center;
+  }
+
+  .member{
+    width: 100%;
+    margin: auto;
+  }
+
+  .member-info{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    margin-top: $-margin-top;
+  }
+
+  .member-info-text-area{
+    padding: 1rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 1em;
+    padding-top: 1rem;
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font-family: $-heading-font;
+  }
+
+  .member-image{
+    display: block;
+    width: 20vw;
+    height: 20vw;
+    min-width: 200px;  
+    min-height: 220px;  
+  }
+
+  .member-h3{
+    font-size: $-h3-fs;
+    font-family: $-body-font;
+    width: 50vw;
+    margin: auto;
+    margin-top: $-margin-top;
+    text-align: center;
+  }
+}
+
+// Discography Section
+
+.discography{
+  width: 90%;
+  margin: auto;
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+    .album-title{
+      margin-bottom: 1rem;
+    }
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  margin: auto;
+  margin-bottom: 4rem;
+
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+
+  ul{
+    list-style-type: none;
+  }
+}
+
+
+
+// Footer
+
+footer{
+  margin-top: 3em;
+
+
+  #sm-footer-logo{
+  width: 50%;
+  margin-top: 8em;
+  }
+}
+
+// Media queries
+
+//  Max width 1020px
+@media screen and (max-width: 1020px) {
+  
+  
+  .discography{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .album-title{
+    text-align: center;
+  }
+}
+
+//  Max width 712px
+@media screen and (max-width: 712px) {
+  
+  .main-info{
+    font-size: .9rem;
+  }
+
+  .discography{
+    grid-template-columns: repeat(1, 1fr);
+
+    .album-title{
+      text-align: center;
+    }
+    .flip-card{
+      margin: auto;
+      margin-bottom: 3.5rem;
+    }
+  }
+
+  .members-container{
+
+    .members-section-title{
+      font-size: 2rem;
+    }
+    .member-h3{
+      font-size: 1.3rem;
+    }
+    .member-info-text-area{
+      font-size: .9rem;
+    }
+  }
+}
+
+//  Max width 375px
+@media screen and (max-width: 375px){
+
+  .main-info{
+    font-size: .8rem;
+  }
+  
+  .members-container{
+    .members-section-title{
+      font-size: 1.6rem;
+    }
+    .member-h3{
+      font-size: 1rem;
+      width: 80vw;
+    }
+    .member-info-text-area{
+      font-size: .8rem;
+    }
+  }
+}

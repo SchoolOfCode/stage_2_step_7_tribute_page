@@ -1,1 +1,67 @@
 /* Copy and paste your CSS from CodePen into here */
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Calibri, Helvetica, sans-serif;
+}
+
+section {
+  font-size: 15px;
+  font-family: Calibri, Helvetica, sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  color: black;
+  margin: auto;
+  background-color: #F5F5F5;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: Calibri, Helvetica, sans-serif;
+}
+
+ul {
+  text-align: left;
+  line-height: 1.7;
+  max-width: 550px;
+  margin: auto
+}
+
+li {
+  margin-bottom: 15px;
+  max-width: 550px;
+}
+
+#citation {
+  font-style: italic;
+  text-align: left;
+  max-width: 550px;
+  margin: auto
+}
+
+#author {
+  font-style: italic;
+  text-align: left;
+  max-width: 550px;
+  margin: auto
+}
+
+#img-div {
+  background-color: white;
+  padding: 10px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+  font-family: Calibri, Helvetica, sans-serif;
+  text-align: center;
+}
